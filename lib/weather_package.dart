@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class WeatherService {
-  static const _apiKey = '628ffd2574436dfaa4d39afa3feeb05b'; // coloque a chave real
+  static const _apiKey = '628ffd2574436dfaa4d39afa3feeb05b';
 
   static Future<double?> getTemperature(double lat, double lon) async {
     final url = Uri.parse(
